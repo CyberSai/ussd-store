@@ -18,7 +18,7 @@ $store(['phone' => '0545123456']); // Can set data by invoking with array
 $store->account_number = '03011231231321'; // can set data using dynamic properties
 $store->set('user_type', 'registered'); // can set data explicitlly
 
-echo $store->get('name', 'Ussd App'); // can retrieve data with one of the few available methods
+echo $store->get('name'); // can retrieve data with one of the few available methods
 print_r($store->toArray()); // get all data as array key-value pair
 
 ```
